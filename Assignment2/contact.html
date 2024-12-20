@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <!-- Header with Logo and Navigation Links -->
+    <header>
+        <h1>Our Website</h1>
+        <nav>
+            <ul>
+                <li><a href="Question_8.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content: Contact Form -->
+    <main>
+        <section id="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="/submit-form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Aside with Location Details and Map Image -->
+        <aside>
+            <h3>Our Location</h3>
+            <p>We are located at 123 Main Street, Hometown, USA.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTow4NOGa3eFTNPL4UoqnsJtw0V5xBij-aN7Q&s" alt="Our Location Map" width="400">
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Our Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
